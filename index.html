@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form>
+      <h1>Admission checker</h1>
+      <div class="form-container">
+<div class="column">
+
+          <div class="flex-ctn">
+            <label for="surname">Surname: </label>
+            <input type="text" id="surname" />
+          </div>
+
+          
+          <div class="flex-ctn">
+            <label>Firstname: </label>
+            <input type="text" id="firstname" />
+          </div>
+
+        </div>
+
+        <div class="column">
+
+            <div class="flex-ctn">
+              <label for="age">Age: </label>
+              <input type="number" id="age" />
+            </div>
+
+            <div class="flex-ctn">
+              <label for="gender">Gender:</label>
+              <input type="text" id="gender" />
+            </div>
+
+        </div>
+
+        <div class="column">
+          <div class="flex-ctn">
+       
+             <label for="nationality">Nationality:</label>
+            <input type="text" id="nationality" />
+          </div>
+
+          <div class="flex-ctn">
+            <label for="state">State of origin: </label>
+            <input type="text" id="state" />
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="flex-ctn">
+            <label>UTMESCORE: </label>
+            <input type="number" id="utme" min="0" max="400"/>
+          </div>
+
+          <div class="flex-ctn">
+            <label>PostUTME: </label>
+            <input type="number" id="putme" min="0" max="20"/>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="flex-ctn">
+            <label>No of sittings: </label>
+            <input type="number" id="sittings" />
+          </div>
+          <div class="flex-ctn"></div>
+        </div>
+
+        <div class="column">
+          <div class="olevel-area">
+              <h3>Mandatory subjects</h3>
+              <ol>
+                <li>
+                  <label>English:
+                    <select id="select1" class="grades">
+                      <option value="grades">SELECT GRADE</option>
+                      <option value="A1">A1</option>
+                      <option value="B2">B2</option>
+                      <option value="B3">B3</option>
+                      <option value="C4">C4</option>
+                      <option value="C5">C5</option>
+                      <option value="C6">C6</option>
+                      <option value="D7">D7</option>
+                      <option value="E8">E8</option>
+                      <option value="F9">F9</option>
+                    </select>
+                  </label>
+                </li>
+                <li>
+                  <label>Mathematics:
+                    <select id="select2" class="grades">
+                      <option value="grades">SELECT GRADE</option>
+                      <option value="A1">A1</option>
+                      <option value="B2">B2</option>
+                      <option value="B3">B3</option>
+                      <option value="C4">C4</option>
+                      <option value="C5">C5</option>
+                      <option value="C6">C6</option>
+                      <option value="D7">D7</option>
+                      <option value="E8">E8</option>
+                      <option value="F9">F9</option>
+                    </select>
+                  </label>
+                </li>
+              </ol>
+              <h2>O'level Results</h2>
+              <h3>3 Other subjects</h3>
+              <ol>
+                <li>
+                  <label>subject3:
+                    <select id="select3" class="">
+                      <option value="grades">SELECT SUBJECT</option>
+                      <option value="commerce">Commerce</option>
+                      <option value="phisics">Physics</option>
+                      <option value="chemistry">Chemistry</option>
+                      <option value="biology">Biology</option>
+                      <option value="government">Government</option>
+                      <option value="literature">Literature</option>
+                      <option value="crs">C.R.S</option>
+                      <option value="accpunt">Accounting</option>
+                      <option value="economics">Economics</option>
+                    </select>
+                  </label>
+                    
+                    <label>Grade:
+                      
+                    <select id="select3" class="grades">
+                      <option value="grades">SELECT GRADE</option>
+                      <option value="A1">A1</option>
+                      <option value="B2">B2</option>
+                      <option value="B3">B3</option>
+                      <option value="C4">C4</option>
+                      <option value="C5">C5</option>
+                      <option value="C6">C6</option>
+                      <option value="D7">D7</option>
+                      <option value="E8">E8</option>
+                      <option value="F9">F9</option>
+                    </select>
+                  </label>    
+                  
+                </li>
+                <li>
+                  <label>subject4:
+                    <select id="select3" class="">
+                      <option value="grades">SELECT SUBJECT</option>
+                      <option value="commerce">Commerce</option>
+                      <option value="phisics">Physics</option>
+                      <option value="chemistry">Chemistry</option>
+                      <option value="biology">Biology</option>
+                      <option value="government">Government</option>
+                      <option value="literature">Literature</option>
+                      <option value="crs">C.R.S</option>
+                      <option value="accpunt">Accounting</option>
+                      <option value="economics">Economics</option>
+                    </select>
+                    <label>
+                      Grade:
+                      <select id="select4" class="grades">
+                        <option value="grades">SELECT GRADE</option>
+                      <option value="A1">A1</option>
+                      <option value="B2">B2</option>
+                      <option value="B3">B3</option>
+                      <option value="C4">C4</option>
+                      <option value="C5">C5</option>
+                      <option value="C6">C6</option>
+                      <option value="D7">D7</option>
+                      <option value="E8">E8</option>
+                      <option value="F9">F9</option>
+                    </select>
+                    </label>
+                  </label>
+                </li>
+                <li>
+                  <label>subject5:
+                    <select id="select3" class="">
+                      <option value="grades">SELECT SUBJECT</option>
+                      <option value="commerce">Commerce</option>
+                      <option value="phisics">Physics</option>
+                      <option value="chemistry">Chemistry</option>
+                      <option value="biology">Biology</option>
+                      <option value="government">Government</option>
+                      <option value="literature">Literature</option>
+                      <option value="crs">C.R.S</option>
+                      <option value="accpunt">Accounting</option>
+                      <option value="economics">Economics</option>
+                    </select>
+                    <label>Grade:
+                      <select id="select5" class="grades">
+                        <option value="grades">SELECT GRADE</option>
+                      <option value="A1">A1</option>
+                      <option value="B2">B2</option>
+                      <option value="B3">B3</option>
+                      <option value="C4">C4</option>
+                      <option value="C5">C5</option>
+                      <option value="C6">C6</option>
+                      <option value="D7">D7</option>
+                      <option value="E8">E8</option>
+                      <option value="F9">F9</option>
+                    </select>
+                    </label>
+                  </label>
+                </li>
+              </ol>
+            
+            <button type="button" onclick="checkAdmission()">SUBMIT</button>
+          </div>
+        </div>
+    </form>
+    
+
+    <script src="Admission.js"></script>
+  </body>
+</html>
